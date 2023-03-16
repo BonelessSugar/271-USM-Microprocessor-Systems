@@ -1,0 +1,17 @@
+how to make a project:
+make a folder in downloads
+open Keil uVision5
+Project --> new uvision project --> downloads --> the folder
+name the file
+select STM32L476RGTx
+CMSIS --> CORE
+check SC000 box
+download .h and .s from lab1 on brightspace
+source group 1 --> add existing files (do for .h and .s)
+source group 1 --> add new file --> c, name = main
+click wand icon
+output: check HEX
+linker: check use Memory Layout
+debug: select ST-Link Debugger in Use:
+OR
+debug: check use simulator
